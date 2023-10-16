@@ -1,0 +1,14 @@
+ls			Show what files and folders there are in the current directory
+mkdir gitProject	create a new directory called gitProject
+touch fileName.txt	create a new file called fileName.txt
+move "fileName.txt" "gitProject"	moves the file to the directory
+cd gitProject		Goes to the projectfolder
+git init		Creates an empty git reposotory
+ls -a			Shows ALL the items, also the hidden
+git status		Show the status
+touch newFileName.txt	create a new file called newFileName.txt
+git add --all		Adds all changes, files and directories to the commit
+git commit -m "The first commit message"	A git commit with a message
+
+echo A line I would like to add to the file.>>newFileName.txt
+cat newFileName.txt	Print the content of the file to the terminal
