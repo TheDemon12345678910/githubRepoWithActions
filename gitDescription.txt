@@ -23,3 +23,5 @@ git checkout -b ＜new-branch＞
 The above example simultaneously creates and checks out ＜new-branch＞. The -b option is a convenience flag that tells Git to run git branch before running git checkout ＜new-branch＞.
 
 git checkout ＜branchname＞	switch to the branch
+
+git fetch --all		Before switching branch, we need to fetch all the branches
