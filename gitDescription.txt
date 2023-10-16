@@ -12,3 +12,9 @@ git commit -m "The first commit message"	A git commit with a message
 
 echo A line I would like to add to the file.>>newFileName.txt
 cat newFileName.txt	Print the content of the file to the terminal
+
+the repo we just created is a local repo, and not for collaborating yest, but now we go to github.com and we create an empty reposotory
+
+git remote add origin https://github.com/TheDemon12345678910/githubRepoWithActions.git
+
+git remote -v
